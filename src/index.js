@@ -30,7 +30,13 @@ import NucleoIcons from "views/NucleoIcons.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
+
+
+
 // others
+
+
+
 
 ReactDOM.render(
   <BrowserRouter>
@@ -47,4 +53,8 @@ ReactDOM.render(
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
+
+
+  
+
 );

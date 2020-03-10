@@ -77,7 +77,7 @@ function ExamplesNavbar() {
             title="Coded by Creative Tim"
             tag={Link}
           >
-            Paper Kit 2
+            J.V.H
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -99,23 +99,29 @@ function ExamplesNavbar() {
           <Nav navbar>
             <NavItem>
               <NavLink to="/index" tag={Link}>
-                <i className="nc-icon nc-layout-11" /> Components
+                <i className="nc-icon nc-layout-11" /> About Me
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
                 target="_blank"
               >
-                <i className="nc-icon nc-book-bookmark" /> Documentation
+                <i className="nc-icon nc-book-bookmark" /> Professional Work
               </NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink to="/index" tag={Link}>
+                <i className="nc-icon nc-email-85" /> Contact Me
+              </NavLink>
+            </NavItem>
+            <br></br>
+            <br></br>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
+                href="https://twitter.com/horn_joe"
                 target="_blank"
-                title="Follow us on Twitter"
+                title="Follow me on Twitter"
               >
                 <i className="fa fa-twitter" />
                 <p className="d-lg-none">Twitter</p>
@@ -124,9 +130,9 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.facebook.com/joe.vanhorn.92"
                 target="_blank"
-                title="Like us on Facebook"
+                title="Like me on Facebook"
               >
                 <i className="fa fa-facebook-square" />
                 <p className="d-lg-none">Facebook</p>
@@ -135,7 +141,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.instagram.com/joe8021/"
                 target="_blank"
                 title="Follow us on Instagram"
               >
@@ -146,7 +152,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
+                href="https://github.com/joe8021"
                 target="_blank"
                 title="Star on GitHub"
               >

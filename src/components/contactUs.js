@@ -35,48 +35,53 @@ class Contact extends Component {
     render() {
         return (
            //Our form goes here
-            <>
-                <Container>
-                    <h1 className="p-heading1">Get in Touch</h1>
-                    <Form onSubmit={this.handleSubmit.bind(this)}>
-                        <FormGroup controlId="formBasicEmail">
-                            <Label className="text-muted">Email address</Label>
+            <Container>
+               
+                <Row>
+                    <Col className="ml-auto mr-auto" md="8">
+                        <h2 className="text-center">Contact Me</h2>
+                        <Form className="contact-form">
+                            <Row>
+                                <Col md="6">
+                                    <label>Name</label>
+                                    <InputGroup>
+                                        <InputGroupAddon addonType="prepend">
+                                            <InputGroupText>
+                                                <i className="nc-icon nc-single-02" />
+                                            </InputGroupText>
+                                        </InputGroupAddon>
+                                        <Input placeholder="Name" type="text" />
+                                    </InputGroup>
+                                </Col>
+                                <Col md="6">
+                                    <label>Email</label>
+                                    <InputGroup>
+                                        <InputGroupAddon addonType="prepend">
+                                            <InputGroupText>
+                                                <i className="nc-icon nc-email-85" />
+                                            </InputGroupText>
+                                        </InputGroupAddon>
+                                        <Input placeholder="Email" type="text" />
+                                    </InputGroup>
+                                </Col>
+                            </Row>
+                            <label>Message</label>
                             <Input
-                                type="email"
-                                name="email"
-                                value={this.state.email}
-                                className="text-primary"
-                                onChange={this.handleChange.bind(this, 'email')}
-                                placeholder="Enter email"
-                            />
-                        </FormGroup>
-                        <FormGroup controlId="formBasicName">
-                            <Label className="text-muted">Name</Label>
-                            <Input
-                                type="text"
-                                name="name"
-                                value={this.state.name}
-                                className="text-primary"
-                                onChange={this.handleChange.bind(this, 'name')}
-                                placeholder="Name"
-                            />
-                        </FormGroup>
-                        <FormGroup controlId="formBasicMessage">
-                            <Label className="text-muted">Message</Label>
-                            <Input
+                                placeholder="Message here..."
                                 type="textarea"
-                                name="message"
-                                className="text-primary"
-                                value={this.state.message}
-                                onChange={this.handleChange.bind(this, 'message')}
+                                rows="4"
                             />
-                        </FormGroup>
-                        <Button variant="primary" type="submit">
-                            Submit
-                        </Button>
-                    </Form>
-                </Container>
-            </>
+                            <Row>
+                                <Col className="ml-auto mr-auto" md="4">
+                                    <Button className="btn-fill" color="danger" size="lg">
+                                        Send Message
+                      </Button>
+                                </Col>
+                            </Row>
+                        </Form>
+                    </Col>
+                </Row>
+            </Container>
         );
     }
 

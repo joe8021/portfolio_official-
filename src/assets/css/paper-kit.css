@@ -1979,7 +1979,7 @@ textarea.form-control {
   box-shadow: none; }
 
 /*           Font Smoothing      */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td, button, input, select, textarea {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h6, .h6, p, .navbar, .brand, a, .td-name, td, button, input, select, textarea {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Montserrat", "Helvetica", Arial, sans-serif;
@@ -2005,7 +2005,8 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.35em;
-  line-height: 1.4em; }
+  line-height: 1.4em;
+font-weight: 400;}
 
 h6, .h6 {
   font-size: 0.9em;
@@ -2019,7 +2020,7 @@ p {
   margin-bottom: 5px; }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
-  color: #9A9A9A;
+  color: rgb(116, 114, 114);
   line-height: 1.5em; }
 
 h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
@@ -2054,7 +2055,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   text-transform: uppercase; }
 
 .description {
-  color: #9A9A9A; }
+  color: #9A9A9A;
+  font-weight: 400;
+}
 
 blockquote small {
   font-style: normal; }
