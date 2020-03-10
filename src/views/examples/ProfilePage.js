@@ -37,7 +37,7 @@ import {
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-// import DemoFooter from "components/Footers/DemoFooter.js";
+import DemoFooter from "components/Footers/DemoFooter.js";
 
 function ProfilePage() {
   const [activeTab, setActiveTab] = React.useState("1");
@@ -66,7 +66,7 @@ function ProfilePage() {
               <img
                 alt="..."
                 className="img-circle img-no-padding img-responsive"
-                src={require("/assets/img/faces/joe-gardner-2.jpg")}
+                src={require("assets/img/faces/joe-gardner-2.jpg")}
               />
             </div>
             <div className="name">
@@ -129,7 +129,7 @@ function ProfilePage() {
                           <img
                             alt="..."
                             className="img-circle img-no-padding img-responsive"
-                            src={require("/assets/img/faces/clem-onojeghuo-2.jpg")}
+                            src={require("assets/img/faces/clem-onojeghuo-2.jpg")}
                           />
                         </Col>
                         <Col className="ml-auto mr-auto" lg="7" md="4" xs="4">
@@ -159,7 +159,7 @@ function ProfilePage() {
                           <img
                             alt="..."
                             className="img-circle img-no-padding img-responsive"
-                            src={require("/assets/img/faces/ayo-ogunseinde-2.jpg")}
+                            src={require("assets/img/faces/ayo-ogunseinde-2.jpg")}
                           />
                         </Col>
                         <Col lg="7" md="4" xs="4">
@@ -191,7 +191,7 @@ function ProfilePage() {
           </TabContent>
         </Container>
       </div>
-      {/* <DemoFooter /> */}
+      <DemoFooter />
     </>
   );
 }
