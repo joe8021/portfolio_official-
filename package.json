@@ -1,5 +1,5 @@
 {
-  "name": "joevanhorn",
+  "name": "paper-kit-react",
   "version": "1.0.0",
   "private": true,
   "homepage": "http://joe8021.github.io/portfolio_official-",
@@ -56,6 +56,6 @@
     "typescript": "3.5.2"
   },
   "devDependencies": {
-    "master": "^2.2.0"
+    "gh-pages": "^2.2.0"
   }
 }
