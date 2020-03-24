@@ -56,6 +56,6 @@
     "typescript": "3.5.2"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "master": "^2.2.0"
   }
 }
