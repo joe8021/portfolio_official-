@@ -2,7 +2,7 @@
   "name": "joevanhorn",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://joe8021.github.io/portfolio_official-/landing-page",
+  "homepage": "http://joe8021.github.io/portfolio_official-/",
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
@@ -54,8 +54,5 @@
   },
   "optionalDependencies": {
     "typescript": "3.5.2"
-  },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
   }
 }
