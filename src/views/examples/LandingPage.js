@@ -35,6 +35,10 @@ import {
   Col
 } from "reactstrap";
 
+import ReactDOM from "react-dom";
+import Pagination from "react-js-pagination";
+require("bootstrap/less/bootstrap.less");
+
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -75,7 +79,7 @@ function LandingPage() {
                 </div> */}
                 <div class="columns download">
                   <p>
-                    <a href="assets/resume/web_resume.pdf" class="button" download><i class="fa fa-download"></i>Download Resume</a>
+                    <a href={require("assets/resume/JosephVanHorn_PDF_Resume.pdf")} class="button" download><i class="fa fa-download"></i>Download Resume</a>
                   </p>
                 </div>
               </Col>
